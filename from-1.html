@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FROM</title>
+    <link rel="stylesheet" href="fromc.css">
+</head>
+
+<body>
+
+    <form class="frm">
+
+
+
+        <div class="f1 f2">
+
+            <!-- <p id="prs">PERSONAL INFORMATION</p> -->
+            </b><label for="fname">FIRST NAME : </label><br> <input type="text" id="fname"
+                placeholder="enter your first name" required><br><br> <label for="lname">LAST NAME : </label><br> <input
+                type="text" id="lname" placeholder="enter your last name" >
+
+
+
+        </div>
+
+
+
+
+
+        <br>
+
+        <div class="f1">
+
+            <p>Ener your location :-</p>
+
+
+
+
+            <input type="radio" id="nwd" name="loc" value="NEW DELHI"><label for="loc">NEW DELHI</label><br>
+
+            <input type="radio" id="pnb" name="loc" value="PUNJAB"><label for="pnb">PUNJAB</label><br>
+
+            <input type="radio" id="deh" name="loc" value="DEHRADUN"><label for="deh">DEHRADUN</label><br>
+
+            <input type="radio" id="taml" name="loc" value="TAMIL NADU"><label for="taml">TAMIL NADU</label><br>
+
+
+
+
+        </div>
+
+
+
+        <br>>
+
+        <div class="f1">
+
+            <p>Pick your hobbies :-</p>
+
+
+
+
+            <input type="checkbox" id="bsk" name="hob" value="BASKET BALL"><label for="bsk">BASKET BALL</label><br>
+
+            <input type="checkbox" id="ftb" name="hob" value="FOOT BALL"><label for="ftb">FOOT BALL</label><br>
+
+            <input type="checkbox" id="chs" name="hob" value="CHESS"><label for="chs">CHESS</label><br>
+
+            <input type="checkbox" id="swm" name="hob" value="SWIMM"><label for="swm">SWIMM</label><br>
+
+
+
+
+        </div>
+
+
+
+        <br>
+
+
+
+
+
+
+        <div class="f1 f3">
+
+            <label for="db">ENTER D.O.B:</label><br><br>
+
+            <input type="date" id="db" value="select D.O.B" >
+
+
+
+<br>
+
+
+
+
+            <!-- <label for="cr">SELECT YOUR CAR : </label>
+
+            <select id="cr">
+
+
+                <option value="audi">Audi</option>
+
+                <option value="bmw">BMW</option>
+
+                <option value="verna">Verna</option>
+
+                <option value="creta">Creta</option>
+
+
+            </select> -->
+
+            <br>
+
+            <input type="button" id="btn" value="click">
+            <input type="button" id="rst" value="Reset">
+
+
+        </div>
+
+
+    </form>
+
+    <br>
+
+    <div class="ctbo">
+
+        <table id="tbo">
+
+            <tr>
+                <th>NAME</th>
+                <th>LOCATION</th>
+                <th>D.O.B</th>
+                <th>HOBBIES</th>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <br><br>
+
+    <div class="inp">
+
+        <label for="ddel">Enter the row you want to delete.</label>
+        <input type="number" id="del" min=1 placeholder="Enter number">
+        <button for="del" onclick="delrow()">Delete</button>
+
+    </div>
+
+    <div class="dv1">
+
+        Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on
+        their pages to work this way.
+
+    </div>
+
+    <div class="dv2">
+
+        Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on
+        their pages to work this way.
+        Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on
+        their pages to work this way.
+        Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on
+        their pages to work this way.
+    </div>
+
+
+    <br>
+
+
+
+    <div class="dv3">
+
+        <img src="pineapple.jpg" alt="Pineapple" style="margin-right: 30px; width: 33%;">
+        <p style="width: 33%;">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget,
+            auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu,
+            lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum
+            nisi,
+            sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae
+            dui
+            eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor
+            porta. Cras ac leo purus. Mauris quis diam velit.
+
+        </p>
+        <p style="width: 33%;">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi
+            lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue
+            eget,
+            auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu,
+            lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum
+            nisi,
+            sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae
+            dui
+            eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor
+            porta. Cras ac leo purus. Mauris quis diam velit.
+
+        </p>
+
+
+    </div>
+
+    <script src="ff.js"></script>
+
+</body>
+
+</html>
